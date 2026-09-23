@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'">
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()">
   <title>Fence Pal | The Ultimate Fence Post Spacing & Alignment Tool</title>
   <style>
     :root {
@@ -29,6 +32,9 @@
     .hero-badge { background: rgba(255, 107, 0, 0.15); color: var(--orange); border: 1px solid var(--orange); padding: 6px 16px; border-radius: 20px; font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; display: inline-block; margin-bottom: 20px; }
     .hero h1 { font-size: 3rem; font-weight: 900; line-height: 1.15; margin-bottom: 20px; color: #FFF; }
     .hero p { font-size: 1.25rem; color: var(--text-muted); max-width: 750px; margin: 0 auto 35px; }
+    .hero-image { width: 100%; max-width: 1100px; margin: 10px auto 0; }
+    .hero-image img { display: block; width: 100%; height: auto; border: 1px solid var(--border); border-radius: 12px; box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35); }
+    .hero-image figcaption { color: var(--text-muted); font-size: 0.85rem; margin-top: 10px; }
 
     /* Value Proposition Grid */
     .section-title { text-align: center; font-size: 2rem; font-weight: 800; margin-bottom: 40px; }
@@ -114,6 +120,10 @@
     <h1>Set Fence Posts Parallel, Plumb & Precise—Without Heavy Lifting</h1>
     <p>Fence Pal is the revolutionary telescopic spacing jig and multi-axis clamp that holds posts completely rigid while concrete sets. Eliminate string line guesswork and say goodbye to wrestling 30kg concrete gravel boards in wet post holes.</p>
     <a href="#preorder" class="btn-primary" style="font-size: 1.1rem; padding: 16px 36px;">Get Fence Pal For Your Next Job</a>
+    <figure class="hero-image">
+      <img src="fence-pal-product.jpeg" width="1408" height="768" alt="Fence Pal spacing and alignment tool secured between two concrete fence posts" fetchpriority="high">
+      <figcaption>Fence Pal keeps fence posts aligned while concrete sets.</figcaption>
+    </figure>
   </section>
 
   <!-- CORE VALUE PROPOSITION GRID -->
